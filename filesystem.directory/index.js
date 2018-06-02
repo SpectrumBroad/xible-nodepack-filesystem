@@ -3,7 +3,7 @@
 module.exports = (NODE) => {
   const directoryOut = NODE.getOutputByName('directory');
 
-  directoryOut.on('trigger', (conn, state, callback) => {
-    callback(NODE.data.path);
+  directoryOut.on('trigger', async (conn, state) => {
+    return NODE.data.path;
   });
 };
