@@ -1,0 +1,10 @@
+{
+  "name": "filesystem.directory",
+  "type": "object",
+  "description": "Returns a directory object.",
+  "outputs": {
+    "directory": {
+      "type": "filesystem.directory"
+    }
+  }
+}

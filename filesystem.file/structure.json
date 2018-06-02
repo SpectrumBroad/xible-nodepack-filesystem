@@ -1,0 +1,19 @@
+{
+  "name": "filesystem.file",
+  "type": "object",
+  "description": "Returns a file object.",
+  "inputs": {
+    "paths": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "files": {
+      "type": "filesystem.file"
+    },
+    "exists": {
+      "type": "boolean",
+      "description": "Returns true if all files exists, otherwise false."
+    }
+  }
+}

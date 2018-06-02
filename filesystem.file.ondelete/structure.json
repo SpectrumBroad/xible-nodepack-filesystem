@@ -1,0 +1,19 @@
+{
+  "name": "filesystem.file.ondelete",
+  "type": "event",
+  "description": "Event which triggers when a file gets deleted.",
+  "inputs": {
+    "files": {
+      "type": "filesystem.file"
+    }
+  },
+  "outputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "file": {
+      "type": "filesystem.file",
+      "description": "The file which got deleted."
+    }
+  }
+}

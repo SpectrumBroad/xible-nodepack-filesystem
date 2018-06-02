@@ -1,0 +1,21 @@
+{
+  "name": "filesystem.file.appendstring",
+  "type": "action",
+  "description": "Append a string to a file. If the file does not exist, it is created.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "files": {
+      "type": "filesystem.file"
+    },
+    "data": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    }
+  }
+}

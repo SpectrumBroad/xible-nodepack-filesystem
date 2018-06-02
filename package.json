@@ -1,0 +1,28 @@
+{
+  "name": "xible-nodepack-filesystem",
+  "description": "Set of filesystem nodes for XIBLE.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spectrumbroad/xible-nodepack-filesystem"
+  },
+  "bugs": {
+    "url": "https://github.com/spectrumbroad/xible-nodepack-filesystem/issues",
+    "email": "bugs@xible.io"
+  },
+  "keywords": [
+    "xible",
+    "filesystem",
+    "fs",
+    "file",
+    "directory",
+    "nodepack"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "chokidar": "*"
+  }
+}

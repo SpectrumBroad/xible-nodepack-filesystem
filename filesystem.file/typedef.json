@@ -1,0 +1,11 @@
+{
+  "filesystem.object": {
+    "extends": "string"
+  },
+  "filesystem.file": {
+    "extends": "filesystem.object"
+  },
+  "filesystem.directory": {
+    "extends": "filesystem.object"
+  }
+}
