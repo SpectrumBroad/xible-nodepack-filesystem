@@ -1,9 +1,14 @@
 {
   "name": "filesystem.directory",
   "type": "object",
-  "description": "Returns a directory object.",
+  "description": "Returns one or more directory objects.",
+  "inputs": {
+    "paths": {
+      "type": "string"
+    }
+  },
   "outputs": {
-    "directory": {
+    "directories": {
       "type": "filesystem.directory"
     }
   }

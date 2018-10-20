@@ -1,7 +1,7 @@
 {
   "name": "filesystem.file",
   "type": "object",
-  "description": "Returns a file object.",
+  "description": "Returns one or more file objects.",
   "inputs": {
     "paths": {
       "type": "string"
