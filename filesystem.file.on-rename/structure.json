@@ -1,5 +1,5 @@
 {
-  "name": "filesystem.file.onrename",
+  "name": "filesystem.file.on-rename",
   "type": "event",
   "description": "Event which triggers when a file gets renamed.",
   "inputs": {

@@ -1,5 +1,5 @@
 {
-  "name": "filesystem.file.appendstring",
+  "name": "filesystem.file.append-string",
   "type": "action",
   "description": "Append a string to a file. If the file does not exist, it is created.",
   "inputs": {

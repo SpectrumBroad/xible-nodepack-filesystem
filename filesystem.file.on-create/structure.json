@@ -1,7 +1,7 @@
 {
-  "name": "filesystem.file.ondelete",
+  "name": "filesystem.file.on-create",
   "type": "event",
-  "description": "Event which triggers when a file gets deleted.",
+  "description": "Event which triggers when a file gets created.",
   "inputs": {
     "files": {
       "type": "filesystem.file"
@@ -13,7 +13,7 @@
     },
     "file": {
       "type": "filesystem.file",
-      "description": "The file which got deleted."
+      "description": "The file which got created."
     }
   }
 }

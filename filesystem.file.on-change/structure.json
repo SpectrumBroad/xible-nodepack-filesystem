@@ -1,5 +1,5 @@
 {
-  "name": "filesystem.file.onchange",
+  "name": "filesystem.file.on-change",
   "type": "event",
   "description": "Triggered when a file gets modified. This therefor also gets triggered whenever a non-existing file being watched is created.",
   "inputs": {
