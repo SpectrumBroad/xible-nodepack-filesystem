@@ -1,7 +1,7 @@
 {
   "name": "xible-nodepack-filesystem",
   "description": "Set of filesystem nodes for XIBLE.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,9 +20,9 @@
     "nodepack"
   ],
   "scripts": {
-    "prepublishOnly": "npm shrinkwrap --only=prod"
+    "prepublishOnly": "npm shrinkwrap"
   },
   "dependencies": {
-    "chokidar": "*"
+    "chokidar": "^3.5.1"
   }
 }
